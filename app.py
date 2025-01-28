@@ -1,8 +1,9 @@
 from flask import Flask
 from dotenv import load_dotenv
 import os
-from .extensions import database
-from .routes import blueprint
+# from .extensions import database
+from extensions import database
+from routes import blueprint
 
 def create_app():
     load_dotenv()

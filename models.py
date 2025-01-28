@@ -1,5 +1,5 @@
 # from . import database
-from app.extensions import database
+from extensions import database
 
 class User(database.Model):
     id = database.Column(database.Integer, primary_key=True, autoincrement=True)
