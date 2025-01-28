@@ -14,4 +14,5 @@ ENV FLASK_ENV=development
 EXPOSE 5000
 
 # CMD ["flask", "run", "--host=0.0.0.0"]
-CMD ["sh", "-c", "flask run --host=0.0.0.0"]
+# CMD ["sh", "-c", "flask run --host=0.0.0.0"]
+CMD [ "python", "app.py" ]
