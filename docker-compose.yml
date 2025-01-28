@@ -1,7 +1,7 @@
 services:
 
   flask_api:
-    build: .
+    build:
       context: .
       dockerfile: Dockerfile
     container_name: flask_api
